@@ -20,3 +20,6 @@ All benchmarks collected here follow the style guidelines of the official
 * `non-incremental/QF_AUFBV/20240117-hevm-msoos`
    * uses `(as const`
    * **not** checked with Dolmen.
+* `non-incremental/LIA/psyco`
+   * have arithmetic expressions that are not compliant with SMT-LIB's
+     restrictions on linear arithmetic.
