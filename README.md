@@ -23,3 +23,6 @@ All benchmarks collected here follow the style guidelines of the official
 * `non-incremental/LIA/psyco`
    * have arithmetic expressions that are not compliant with SMT-LIB's
      restrictions on linear arithmetic.
+* `non-incremental/AUFLIA/20230321-UltimateAutomizerSvcomp2023`
+   * Use nested array sorts (such as `(Array Int (Array Int Int))`)
+     not allowed in LIA logics.
