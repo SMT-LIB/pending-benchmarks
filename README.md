@@ -14,9 +14,6 @@ All benchmarks collected here follow the style guidelines of the official
 
 ## Benchmark Sets
 
-* `non-incremental/AUFBVDTNIA/20240618-LibMLKEM/`
-   * uses `nat2bv` and `bv2nat`
-   * checked using Dolmen with `--ext=bvconv`.
 * `non-incremental/QF_AUFBV/20240117-hevm-msoos`
    * uses `(as const`
    * **not** checked with Dolmen.
